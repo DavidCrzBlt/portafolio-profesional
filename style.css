@@ -1,0 +1,9 @@
+.img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.img-full{
+    width: 100%;
+    max-width: 1000px;
+}
