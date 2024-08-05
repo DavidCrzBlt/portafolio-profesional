@@ -1,9 +1,16 @@
 .img{
-    width: 100%;
-    max-width: 300px;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .img-full{
     width: 100%;
     max-width: 1000px;
+}
+
+.scrollspy-example{
+    height: 450px;
+    overflow-y: scroll;
 }

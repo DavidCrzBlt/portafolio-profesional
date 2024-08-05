@@ -12,48 +12,458 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
-            <ul class="nav nav-pills">
+    <div class="container-fluid mb-4 mt-2">
+        <nav class="navbar bg-body-tertiary">
+            <span class="navbar-brand mb-0 h1">David Cruz Beltrán</span>
+            <ul class="nav nav-pills justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Sobre mí</a>
                 </li>
                 <!-- <li class="nav-item">
-                    <a class="nav-link" href="proyectos.html">Proyectos</a>
-                </li> -->
+                            <a class="nav-link" href="proyectos.html">Proyectos</a>
+                        </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="cv.html">CV</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
                 </li>
             </ul>
         </nav>
+    </div>
 
-        <div class="card-group mb-5">
-            <div class="card">
-                <img src="images/sensores.jpeg" class="card-img-top" alt="Sensor de temperatura">
-                <div class="card-body">
-                    <h5 class="card-title">Recolección de datos</h5>
-                    <p class="card-text">Servicio integral de recolección de datos, utilizando sensores adecuados a la operación de su negocio. Estos sensores recopilan información valiosa en tiempo real, que puede ser utilizada para mejorar procesos y tomar decisiones informadas. Además, podemos diseñar y crear formularios personalizados para evaluar las preferencias y comportamientos de los consumidores, adaptándonos a las necesidades específicas de cada cliente. Nuestro enfoque garantiza que obtenga los datos más relevantes y útiles para su negocio.</p>
+    <div class="container mb-3">
+        <div id="carouselExample" class="carousel slide" data-bs-theme="dark" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card text-bg-light mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-5 offset-md-1">
+                                <img src="images/sensores.jpeg" class="img-fluid rounded-start"
+                                    alt="Sensor de temperatura">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Recolección de datos</h5>
+                                    <div class="card-text">
+                                        <p class="card-text">
+                                            Servicio integral de recolección de datos, utilizando sensores adecuados a
+                                            la
+                                            operación de su negocio. Estos sensores recopilan información valiosa en
+                                            tiempo real,
+                                            que
+                                            puede
+                                            ser utilizada para mejorar procesos y tomar decisiones informadas. Además,
+                                            podemos
+                                            diseñar y
+                                            crear formularios personalizados para evaluar las preferencias y
+                                            comportamientos de los
+                                            consumidores, adaptándonos a las necesidades específicas de cada cliente.
+                                            Nuestro
+                                            enfoque
+                                            garantiza que obtenga los datos más relevantes y útiles para su negocio.
+                                        </p>
+                                        <h5 class="h5 text-center">¿Qué incluye?</h5>
+                                        <div class="accordion" id="accordionExample" data-bs-theme="light">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        <strong>Evaluación y selección de sensores</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Análisis de las
+                                                        necesidades del
+                                                        negocio
+                                                        para seleccionar los sensores más adecuados.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        <strong>Instalación de sensores</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Colocación y configuración de sensores en los puntos
+                                                        estratégicos de su operación.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="false" aria-controls="collapseThree">
+                                                        <strong>Recolección de datos en tiempo real</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Captura continua de datos para obtener información actualizada y
+                                                        precisa.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                        aria-expanded="false" aria-controls="collapseFour">
+                                                        <strong>Diseño de formularios personalizados</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFour" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Creación de formularios específicos para recopilar datos
+                                                        relevantes de los consumidores.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                        aria-expanded="false" aria-controls="collapseFive">
+                                                        <strong>Mantenimiento y soporte técnico</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFive" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Asistencia continua para asegurar el correcto funcionamiento de
+                                                        los sensores y sistemas de recolección de datos.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                                        aria-expanded="false" aria-controls="collapseSix">
+                                                        <strong>Adaptación a necesidades específicas</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSix" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Flexibilidad para ajustar el servicio según los requerimientos
+                                                        únicos de cada cliente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card text-bg-light mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-5 offset-md-1">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Análisis exploratorio de datos</h5>
+                                    <div class="card-text">
+                                        <p>El Análisis Exploratorio de Datos (EDA) es un paso fundamental para
+                                            comprender
+                                            lo que está ocurriendo en tu negocio. Una vez que los datos han sido
+                                            limpiados y
+                                            filtrados
+                                            (dado
+                                            que no toda la información recopilada por los sensores es útil), el EDA
+                                            permite
+                                            identificar
+                                            patrones, tendencias y relaciones en los datos. Este análisis ayuda a
+                                            descubrir insights
+                                            valiosos, detectar anomalías y formular hipótesis que pueden ser probadas en
+                                            etapas
+                                            posteriores.
+                                            En resumen, el EDA proporciona una visión clara y profunda de la
+                                            información,
+                                            facilitando la
+                                            toma de decisiones informadas y estratégicas.</p>
+                                        <h5 class="h5 text-center">¿Qué incluye?</h5>
+                                        <div class="accordion" id="accordionExample2" data-bs-theme="light">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                                        aria-expanded="true" aria-controls="collapseSeven">
+                                                        <strong>Limpieza y filtrado de datos</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSeven" class="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body">
+                                                        Eliminación de datos
+                                                        irrelevantes o
+                                                        erróneos
+                                                        para asegurar la calidad del análisis.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                                        aria-expanded="false" aria-controls="collapseEight">
+                                                        <strong>Identificación de patrones y tendencias</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEight" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body">
+                                                        Descubrimiento
+                                                        de
+                                                        relaciones
+                                                        significativas en los datos.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                                        aria-expanded="false" aria-controls="collapseNine">
+                                                        <strong>Detección de anomalías</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseNine" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body">
+                                                        Identificación de datos atípicos que puedan indicar problemas o
+                                                        oportunidades.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                                        aria-expanded="false" aria-controls="collapseTen">
+                                                        <strong>Formulación de hipótesis</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTen" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body">
+                                                        Desarrollo de preguntas y supuestos que pueden guiar análisis
+                                                        posteriores.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseEleven"
+                                                        aria-expanded="false" aria-controls="collapseEleven">
+                                                        <strong>Visualización de datos</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEleven" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body">
+                                                        Creación de gráficos y visualizaciones para facilitar la
+                                                        comprensión de los hallazgos.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                                        aria-expanded="false" aria-controls="collapseTwelve">
+                                                        <strong>Entrega de tableros de visualización</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwelve" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body">
+                                                        Desarrollo de dashboards interactivos para monitorear métricas
+                                                        clave en tiempo real.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/data_analysis.jpg" class="img-fluid rounded-end" alt="Gráficas">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card text-bg-light mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 offset-md-1">
+                                <img src="images/machine_learning_code.jpeg" class="img-fluid rounded-start" alt="ML">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Modelos de Machine Learning</h5>
+                                    <div class="card-text">
+                                        <p>Dependiendo de las necesidades específicas de su negocio, podemos implementar
+                                            modelos de machine learning que ayuden a predecir condiciones futuras o
+                                            automatizar
+                                            tareas.
+                                            Estos modelos utilizan datos históricos y actuales para identificar patrones
+                                            y
+                                            tendencias,
+                                            permitiendo anticiparse a eventos y optimizar procesos. Ya sea para mejorar
+                                            la
+                                            eficiencia
+                                            operativa, personalizar la experiencia del cliente o detectar anomalías,
+                                            nuestros
+                                            modelos de
+                                            machine learning se adaptan a sus objetivos empresariales.</p>
+                                        <h5 class="h5 text-center">¿Qué incluye?</h5>
+                                        <div class="accordion" id="accordionExample3" data-bs-theme="light">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        <strong>Evaluación de necesidades</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Análisis de los requerimientos específicos del negocio para definir los objetivos del modelo.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        <strong>Desarrollo de modelos predictivos</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Creación de modelos que anticipan eventos futuros basados en datos históricos.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="false" aria-controls="collapseThree">
+                                                        <strong>Automatización de tareas</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Implementación de modelos que optimizan y automatizan procesos operativos.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                        aria-expanded="false" aria-controls="collapseFour">
+                                                        <strong>Entrenamiento y validación de modelos</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFour" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Ajuste y evaluación de los modelos para asegurar su precisión y efectividad.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                        aria-expanded="false" aria-controls="collapseFive">
+                                                        <strong>Despliegue de modelos</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFive" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Integración de los modelos en los sistemas del negocio para su uso práctico.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                                        aria-expanded="false" aria-controls="collapseSix">
+                                                        <strong>Monitoreo y actualización de modelos</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSix" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Supervisión continua y ajustes periódicos para mantener la precisión y relevancia del modelo.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                                        aria-expanded="false" aria-controls="collapseSeven">
+                                                        <strong>Asesoramiento y soporte técnico</strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample3">
+                                                    <div class="accordion-body">
+                                                        Asistencia en la interpretación de resultados y el uso de los modelos para la toma de decisiones.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                
-                <div class="card-body">
-                    <h5 class="card-title">Análisis exploratorio de datos</h5>
-                    <p class="card-text">El Análisis Exploratorio de Datos (EDA) es un paso fundamental para comprender lo que está ocurriendo en tu negocio. Una vez que los datos han sido limpiados y filtrados (dado que no toda la información recopilada por los sensores es útil), el EDA permite identificar patrones, tendencias y relaciones en los datos. Este análisis ayuda a descubrir insights valiosos, detectar anomalías y formular hipótesis que pueden ser probadas en etapas posteriores. En resumen, el EDA proporciona una visión clara y profunda de la información, facilitando la toma de decisiones informadas y estratégicas.</p>
-                </div>
-                <img src="images/data_analysis.jpg" class="card-img-top" alt="graficas">
-            </div>
-            <div class="card">
-                <img src="images/machine_learning_code.jpeg" class="card-img-top" alt="machine learning">
-                <div class="card-body">
-                    <h5 class="card-title">Modelos de Machine Learning</h5>
-                    <p class="card-text">Dependiendo de las necesidades específicas de su negocio, podemos implementar modelos de machine learning que ayuden a predecir condiciones futuras o automatizar tareas. Estos modelos utilizan datos históricos y actuales para identificar patrones y tendencias, permitiendo anticiparse a eventos y optimizar procesos. Ya sea para mejorar la eficiencia operativa, personalizar la experiencia del cliente o detectar anomalías, nuestros modelos de machine learning se adaptan a sus objetivos empresariales.</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
